@@ -1,8 +1,25 @@
 import Vue from 'vue'
-import App from './App.vue'
-
-Vue.config.productionTip = false
+import Calculator from './Calculator'
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+  el: '#app-element',
+  render: function (createElement) {
+    return createElement(Calculator)
+  }
+})
+
+//new Vue({
+//  el: '#app-element-2',
+//  render: function (h) {
+//    return h(App)
+//  }
+//})
+
+//new Vue({
+//  el: "#app-element-3",
+//  render:  h => h(App)   
+//})  
+
+
+
+

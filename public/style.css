@@ -1,0 +1,53 @@
+@font-face {
+  font-family: Digital;
+  src: url('Open 24 Display St.ttf');
+}
+
+.grid-container {
+  height: 100%;
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+}
+.item-3:hover, .item-4:hover, .item-1:hover{
+   background:#f9e8d2;
+  
+}
+.item-1, .item-3, .item-4 {
+  padding:20px;
+  color:grey;
+  font-family:monospace;
+  text-align:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor:pointer; 
+}
+
+.item-2 {
+ /* background: black; */
+  background:#c8c8c8;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  font-family: Digital;
+ /*  color:#00ff87; */
+  color:#404040;
+  display: flex;
+  align-items: center;
+  font-size: 100px;
+  padding-left: 20px;
+}
+
+.item-3, .item-4, .item-1 {
+  background: antiquewhite;
+}
+
+.item-4 {
+  grid-column-start:3;
+  grid-column-end:5
+}
+
+html, body {
+  height:100%;
+  margin:0px;
+}
