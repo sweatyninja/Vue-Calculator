@@ -10,23 +10,24 @@
   grid-template-columns: 1fr 1fr 1fr 1fr; 
 }
 .item-3:hover, .item-4:hover, .item-1:hover{
-   background:#f9e8d2;
+   background:#f9f9f9;
   
 }
 .item-1, .item-3, .item-4 {
   padding:20px;
-  color:grey;
+  color:#d7d7d7;
   font-family:monospace;
   text-align:center;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor:pointer; 
+  font-size:40px;
 }
 
 .item-2 {
  /* background: black; */
-  background:#c8c8c8;
+  background:white;
   grid-column-start: 1;
   grid-column-end: 4;
   font-family: Digital;
@@ -39,7 +40,7 @@
 }
 
 .item-3, .item-4, .item-1 {
-  background: antiquewhite;
+  background: white;
 }
 
 .item-4 {
